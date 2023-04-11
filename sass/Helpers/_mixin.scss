@@ -1,0 +1,79 @@
+@mixin box-sizing {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@mixin list-unstyled {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@mixin overley($color, $opacity) {
+  @content;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba($color, $opacity);
+}
+
+@mixin breakpoint($point) {
+  @if $point == mobile {
+    @media (max-width: 767px) {
+      @content;
+    }
+  } @else if $point== very-small {
+    @media (max-width: 991px) {
+      @content;
+    }
+  } @else if $point == small {
+    @media (min-width: 768px) and (max-width: 991px) {
+      @content;
+    }
+  } @else if $point== medium {
+    @media (min-width: 992px) and (max-width: 1199px) {
+      @content;
+    }
+  } @else if $point == large {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+}
+
+@mixin centering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin keyF($anim-name) {
+  @-webkit-keyframes #{$anim-name} {
+    @content;
+  }
+  @keyframes #{$anim-name} {
+    @content;
+  }
+}
+
+@mixin pos-direction(
+  $postion,
+  $top: auto,
+  $right: auto,
+  $bottom: auto,
+  $left: auto
+) {
+  position: $postion;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin grid($val) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($val, 1fr));
+  gap: 1.5rem;
+}

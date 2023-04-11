@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hafez</title>
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- BootStap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="master.css" />
+    <!-- Swipper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <nav
+      class="navbar navbar-expand-lg sticky-top z-1000 p-3"
+      data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-black" href="#"
+          ><i class="fas fa-hiking pe-2"></i>travel</a
+        >
+        <button
+          class="toggler shadow-none ms-auto fs-3 w-10 bg-transparent border px-2 d-lg-none"
+          type="button">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <button
+            type="button"
+            id="closeBtn"
+            class="btn-close d-lg-none shadow-none position-absolute"></button>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#shop">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#packages">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reviews">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blogs">blogs</a>
+          </li>
+        </ul>
+        <div class="icons d-md-flex justify-content-around">
+          <div href="#">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <div class="search">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="search-form">
+      <a href="#" class="close">
+        <i class="fas fa-times"></i>
+      </a>
+      <form class="form-group">
+        <input
+          class="form-control"
+          type="search"
+          name=""
+          placeholder="Search Here..."
+          id="search-box" />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+    </div>
+    <!-- End Header -->
+    <!-- Start Home -->
+    <div class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box one">
+              <div class="content">
+                <span class="badge fs-3">Never Stop</span>
+                <h3 class="fw-bold fs-1">Exploring</h3>
+                <p class="lh-base">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Inventore, iure! Officia, itaque, magni voluptate molestias
+                  aliquam
+                </p>
+                <a href="" class="btn">Get Started</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box two">
+              <div class="content">
+                <span class="badge fs-3">Make Your</span>
+                <h3 class="fw-bold fs-1">Amazing</h3>
+                <p class="lh-base">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Inventore, iure! Officia, itaque, magni voluptate molestias
+                  aliquam
+                </p>
+                <a href="" class="btn">Get Started</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box three">
+              <div class="content">
+                <span class="badge fs-3">Explore </span>
+                <h3 class="fw-bold fs-1">The New World</h3>
+                <p class="lh-base">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Inventore, iure! Officia, itaque, magni voluptate molestias
+                  aliquam
+                </p>
+                <a href="" class="btn">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next d-none d-md-block"></div>
+        <div class="swiper-button-prev d-none d-md-block"></div>
+      </div>
+    </div>
+    <!-- End Home -->
+    <!-- Start Category -->
+    <div class="category py-5">
+      <h1 class="heading">Adventure idea</h1>
+      <div class="container">
+        <div class="box">
+          <img src="imgs/category1.jpeg" alt="" />
+          <h3>bungee jump</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque,
+            veniam ex aperiam iure eveniet similique.
+          </p>
+          <a href="" class="btn">Read More</a>
+        </div>
+        <div class="box">
+          <img src="imgs/category2.jpeg" alt="" />
+          <h3>zip lines</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque,
+            veniam ex aperiam iure eveniet similique.
+          </p>
+          <a href="" class="btn">Read More</a>
+        </div>
+        <div class="box">
+          <img src="imgs/category3.jpeg" alt="" />
+          <h3>Canoeing</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque,
+            veniam ex aperiam iure eveniet similique.
+          </p>
+          <a href="" class="btn">Read More</a>
+        </div>
+        <div class="box">
+          <img src="imgs/category4.jpeg" alt="" />
+          <h3>Kayaking</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque,
+            veniam ex aperiam iure eveniet similique.
+          </p>
+          <a href="" class="btn">Read More</a>
+        </div>
+      </div>
+    </div>
+    <!-- End Category -->
+    <!-- Start About -->
+    <div class="about py-5" id="about">
+      <div class="container d-flex justify-content-center align-items-center">
+        <div class="image">
+          <img src="imgs/about.jpeg" alt="" />
+        </div>
+        <div class="content text-center text-md-start">
+          <h3>Memorable Outdoor Experiences</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+            blanditiis unde nulla architecto numquam reiciendis beatae nostrum
+            nobis alias voluptates, recusandae incidunt quasi optio, repellendus
+            a
+          </p>
+          <p>
+            deleniti molestias minima. Nihil omnis ipsam fugit aspernatur
+            soluta, eaque aspernatur cumque culpa? Maiores eligendi quibusdam
+            doloremque odit, quo nesciunt mollitia inventore, autem unde.
+          </p>
+          <a href="" class="btn">Read More</a>
+        </div>
+      </div>
+    </div>
+    <!-- End About -->
+    <!-- Start Shop -->
+    <div class="shop py-5" id="shop">
+      <h1 class="heading">Featured Products</h1>
+      <div class="container">
+        <div class="swiper product-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+              <div class="image">
+                <img src="imgs/product1.jpeg" alt="" />
+                <div class="icons">
+                  <a href="">
+                    <i class="fas fa-shopping-cart"></i>
+                  </a>
+                  <a href="">
+                    <i class="fas fa-eye"></i>
+                  </a>
+                  <a href="">
+                    <i class="fas fa-share"> </i>
+                  </a>
+                </div>
+              </div>
+              <div class="content">
+                <h3>Survival Kits</h3>
+                <div class="price">$5.00 - $25.00</div>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide slide">
+              <div class="image">
+                <img src="imgs/product2.jpeg" alt="" />
+                <div class="icons">
+                  <a href="">
+                    <i class="fas fa-shopping-cart"></i>
+                  </a>
+                  <a href="">
+                    <i class="fas fa-eye"></i>
+                  </a>
+                  <a href="">
+                    <i class="fas fa-share"> </i>
+                  </a>
+                </div>
+              </div>
+              <div class="content">
+                <h3>Survival Kits</h3>
+                <div class="price">$5.00 - $25.00</div>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide slide">
+              <div class="image">
+                <img src="imgs/product3.jpeg" alt="" />
+                <div class="icons">
+                  <a href="">
+                    <i class="fas fa-shopping-cart"></i>
+                  </a>
+                  <a href="">
+                    <i class="fas fa-eye"></i>
+                  </a>
+                  <a href="">
+                    <i class="fas fa-share"> </i>
+                  </a>
+                </div>
+              </div>
+              <div class="content">
+                <h3>Survival Kits</h3>
+                <div class="price">$5.00 - $25.00</div>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide slide">
+              <div class="image">
+                <img src="imgs/product4.jpeg" alt="" />
+                <div class="icons">
+                  <a href="">
+                    <i class="fas fa-shopping-cart"></i>
+                  </a>
+                  <a href="">
+                    <i class="fas fa-eye"></i>
+                  </a>
+                  <a href="">
+                    <i class="fas fa-share"> </i>
+                  </a>
+                </div>
+              </div>
+              <div class="content">
+                <h3>Survival Kits</h3>
+                <div class="price">$5.00 - $25.00</div>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide slide">
+              <div class="image">
+                <img src="imgs/product5.jpg" alt="" />
+                <div class="icons">
+                  <a href="">
+                    <i class="fas fa-shopping-cart"></i>
+                  </a>
+                  <a href="">
+                    <i class="fas fa-eye"></i>
+                  </a>
+                  <a href="">
+                    <i class="fas fa-share"> </i>
+                  </a>
+                </div>
+              </div>
+              <div class="content">
+                <h3>Survival Kits</h3>
+                <div class="price">$5.00 - $25.00</div>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next d-none d-md-block"></div>
+          <div class="swiper-button-prev d-none d-md-block"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End Shop -->
+    <!-- Start Packages -->
+    <div class="packages py-5" id="packages">
+      <h1 class="heading">Popular Packages</h1>
+      <div class="container">
+        <div class="box-container">
+          <div class="box card">
+            <img src="imgs/package1.jpg" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h3 class="card-title">Featured Tour Package</h3>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Distinctio, corrupti!
+              </p>
+              <div class="price mb-2 fs-3">$250 - $450</div>
+              <a href="" class="btn">Explore Now</a>
+            </div>
+          </div>
+          <div class="box card">
+            <img src="imgs/package2.jpeg" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h3 class="card-title">Featured Tour Package</h3>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Distinctio, corrupti!
+              </p>
+              <div class="price mb-2 fs-3">$250 - $450</div>
+              <a href="" class="btn">Explore Now</a>
+            </div>
+          </div>
+          <div class="box card">
+            <img src="imgs/package3.jpeg" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h3 class="card-title">Featured Tour Package</h3>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Distinctio, corrupti!
+              </p>
+              <div class="price mb-2 fs-3">$250 - $450</div>
+              <a href="" class="btn">Explore Now</a>
+            </div>
+          </div>
+          <div class="box card">
+            <img src="imgs/package4.jpeg" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h3 class="card-title">Featured Tour Package</h3>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Distinctio, corrupti!
+              </p>
+              <div class="price mb-2 fs-3">$250 - $450</div>
+              <a href="" class="btn">Explore Now</a>
+            </div>
+          </div>
+          <div class="box card">
+            <img src="imgs/package5.jpeg" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h3 class="card-title">Featured Tour Package</h3>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Distinctio, corrupti!
+              </p>
+              <div class="price mb-2 fs-3">$250 - $450</div>
+              <a href="" class="btn">Explore Now</a>
+            </div>
+          </div>
+          <div class="box card">
+            <img src="imgs/package6.jpeg" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h3 class="card-title">Featured Tour Package</h3>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Distinctio, corrupti!
+              </p>
+              <div class="price mb-2 fs-3">$250 - $450</div>
+              <a href="" class="btn">Explore Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Packages -->
+    <!-- End Reviews -->
+    <div class="swiper reviews py-5" id="reviews">
+      <h1 class="heading">Client's Reviews</h1>
+      <div class="container">
+        <div class="review-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+              <p class="text text-black-70">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum dolorem ab quod voluptas, ipsum enim debitis, accusamus
+                quis veritatis error ratione quidem explicabo aperiam aliquid,
+                veniam ex. Asperiores, perferendis vitae?
+              </p>
+              <div class="user">
+                <img src="imgs/Mohafez.jpg" alt="" />
+                <div class="info">
+                  <h3>Mohamed Hafez</h3>
+                  <span>Programmer</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide slide">
+              <p class="text text-black-70">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum dolorem ab quod voluptas, ipsum enim debitis, accusamus
+                quis veritatis error ratione quidem explicabo aperiam aliquid,
+                veniam ex. Asperiores, perferendis vitae?
+              </p>
+              <div class="user">
+                <img src="imgs/avatar-02.png" alt="" />
+                <div class="info">
+                  <h3>Mohamed Hafez</h3>
+                  <span>Programmer</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide slide">
+              <p class="text text-black-70">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum dolorem ab quod voluptas, ipsum enim debitis, accusamus
+                quis veritatis error ratione quidem explicabo aperiam aliquid,
+                veniam ex. Asperiores, perferendis vitae?
+              </p>
+              <div class="user">
+                <img src="imgs/avatar-03.png" alt="" />
+                <div class="info">
+                  <h3>Mohamed Hafez</h3>
+                  <span>Programmer</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide slide">
+              <p class="text text-black-70">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum dolorem ab quod voluptas, ipsum enim debitis, accusamus
+                quis veritatis error ratione quidem explicabo aperiam aliquid,
+                veniam ex. Asperiores, perferendis vitae?
+              </p>
+              <div class="user">
+                <img src="imgs/avatar-04.png" alt="" />
+                <div class="info">
+                  <h3>Mohamed Hafez</h3>
+                  <span>Programmer</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide slide">
+              <p class="text text-black-70">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum dolorem ab quod voluptas, ipsum enim debitis, accusamus
+                quis veritatis error ratione quidem explicabo aperiam aliquid,
+                veniam ex. Asperiores, perferendis vitae?
+              </p>
+              <div class="user">
+                <img src="imgs/avatar-05.png" alt="" />
+                <div class="info">
+                  <h3>Mohamed Hafez</h3>
+                  <span>Programmer</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide slide">
+              <p class="text text-black-70">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum dolorem ab quod voluptas, ipsum enim debitis, accusamus
+                quis veritatis error ratione quidem explicabo aperiam aliquid,
+                veniam ex. Asperiores, perferendis vitae?
+              </p>
+              <div class="user">
+                <img src="imgs/avatar-06.png" alt="" />
+                <div class="info">
+                  <h3>Mohamed Hafez</h3>
+                  <span>Programmer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Reviews -->
+    <!-- Start Services -->
+    <div class="services py-5">
+      <h1 class="heading">What We Offer</h1>
+      <div class="container">
+        <div class="box-container">
+          <div class="box">
+            <img class="img-fluid" src="imgs/services1.jpeg" alt="" />
+            <h3 class="my-3 fw-bold">Complete Guide</h3>
+            <p class="lh-lg text-secondary">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur,
+              modi?
+            </p>
+            <a href="" class="btn text-black">Read More</a>
+          </div>
+          <div class="box">
+            <img class="img-fluid" src="imgs/services2.jpeg" alt="" />
+            <h3 class="my-3 fw-bold">Custom Packages</h3>
+            <p class="lh-lg text-secondary">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur,
+              modi?
+            </p>
+            <a href="" class="btn text-black">Read More</a>
+          </div>
+          <div class="box">
+            <img class="img-fluid" src="imgs/services3.jpeg" alt="" />
+            <h3 class="my-3 fw-bold">Family Trips</h3>
+            <p class="lh-lg text-secondary">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur,
+              modi?
+            </p>
+            <a href="" class="btn text-black">Read More</a>
+          </div>
+          <div class="box">
+            <img class="img-fluid" src="imgs/services4.jpeg" alt="" />
+            <h3 class="my-3 fw-bold">Train Guides</h3>
+            <p class="lh-lg text-secondary">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur,
+              modi?
+            </p>
+            <a href="" class="btn text-black">Read More</a>
+          </div>
+          <div class="box">
+            <img class="img-fluid" src="imgs/services5.jpeg" alt="" />
+            <h3 class="my-3 fw-bold">Adventure Trail</h3>
+            <p class="lh-lg text-secondary">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur,
+              modi?
+            </p>
+            <a href="" class="btn text-black">Read More</a>
+          </div>
+          <div class="box">
+            <img class="img-fluid" src="imgs/services6.jpeg" alt="" />
+            <h3 class="my-3 fw-bold">Various Adventures</h3>
+            <p class="lh-lg text-secondary">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur,
+              modi?
+            </p>
+            <a href="" class="btn text-black">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Blogs -->
+    <div class="blogs py-5" id="blogs">
+      <div class="heading">Our Daily Posts</div>
+      <div class="container">
+        <div class="swiper blogs-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+              <img class="img-fluid" src="imgs/blog1.jpeg" alt="" />
+              <div class="icons">
+                <a href=""><i class="fa-solid fa-calendar"></i>21 June,1999</a>
+                <a href=""><i class="fas fa-user"></i>By Admin</a>
+              </div>
+              <h3>blog title goes Here.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perspiciatis, in.
+              </p>
+              <a href="" class="btn">Read More</a>
+            </div>
+            <div class="swiper-slide slide">
+              <img class="img-fluid" src="imgs/blog2.jpeg" alt="" />
+              <div class="icons">
+                <a href=""><i class="fa-solid fa-calendar"></i>21 June,1999</a>
+                <a href=""><i class="fas fa-user"></i>By Admin</a>
+              </div>
+              <h3>blog title goes Here.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perspiciatis, in.
+              </p>
+              <a href="" class="btn">Read More</a>
+            </div>
+            <div class="swiper-slide slide">
+              <img class="img-fluid" src="imgs/blog3.jpeg" alt="" />
+              <div class="icons">
+                <a href=""><i class="fa-solid fa-calendar"></i>21 June,1999</a>
+                <a href=""><i class="fas fa-user"></i>By Admin</a>
+              </div>
+              <h3>blog title goes Here.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perspiciatis, in.
+              </p>
+              <a href="" class="btn">Read More</a>
+            </div>
+            <div class="swiper-slide slide">
+              <img class="img-fluid" src="imgs/blog4.jpeg" alt="" />
+              <div class="icons">
+                <a href=""><i class="fa-solid fa-calendar"></i>21 June,1999</a>
+                <a href=""><i class="fas fa-user"></i>By Admin</a>
+              </div>
+              <h3>blog title goes Here.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perspiciatis, in.
+              </p>
+              <a href="" class="btn">Read More</a>
+            </div>
+            <div class="swiper-slide slide">
+              <img class="img-fluid" src="imgs/blog5.webp" alt="" />
+              <div class="icons">
+                <a href=""><i class="fa-solid fa-calendar"></i>21 June,1999</a>
+                <a href=""><i class="fas fa-user"></i>By Admin</a>
+              </div>
+              <h3>blog title goes Here.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perspiciatis, in.
+              </p>
+              <a href="" class="btn">Read More</a>
+            </div>
+            <div class="swiper-slide slide">
+              <img class="img-fluid" src="imgs/blog6.webp" alt="" />
+              <div class="icons">
+                <a href=""><i class="fa-solid fa-calendar"></i>21 June,1999</a>
+                <a href=""><i class="fas fa-user"></i>By Admin</a>
+              </div>
+              <h3>blog title goes Here.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perspiciatis, in.
+              </p>
+              <a href="" class="btn">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Blogs -->
+    <!-- Start Newsletter -->
+    <div class="newsletter py-5">
+      <div class="container">
+        <div class="content">
+          <h1>Subscribe Now</h1>
+          <p class="lh-lg text-black-70 mb-4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus ab
+            asperiores, eveniet sapiente quo saepe quisquam sint exercitationem
+            accusantium et voluptatibus, aspernatur consequuntur molestiae culpa
+            numquam suscipit totam pariatur optio.
+          </p>
+          <form action="">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Enter Your mail" />
+            <input type="submit" value="Subscribe" class="btn form-control" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End Newsletter -->
+    <!-- Start Clients -->
+    <div class="swiper clients text-center py-5">
+      <div class="container">
+        <div class="clients-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+              <img src="imgs/client1.png" alt="" />
+            </div>
+            <div class="swiper-slide slide">
+              <img src="imgs/client2.jpeg" alt="" />
+            </div>
+            <div class="swiper-slide slide">
+              <img src="imgs/client3.jpeg" alt="" />
+            </div>
+            <div class="swiper-slide slide">
+              <img src="imgs/client4.jpeg" alt="" />
+            </div>
+            <div class="swiper-slide slide">
+              <img src="imgs/client5.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-button-next d-block d-md-none"></div>
+          <div class="swiper-button-prev d-block d-md-none"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End Clients -->
+    <!-- Start Footer -->
+    <div class="footer py-5">
+      <div class="container">
+        <div class="box-container text-center text-md-start">
+          <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#shop">Shop</a>
+            <a href="#packages">Packages</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#blogs">Blogs</a>
+          </div>
+          <div class="box">
+            <h3>Extra Links</h3>
+            <a href="#">My Account</a>
+            <a href="#">My Order</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Ask Questions</a>
+            <a href="#">Terms Of User</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="box">
+            <h3>Contact Info</h3>
+            <a href=""><i class="fas fa-phone"></i>01012244777</a>
+            <a href="mailto:m.hafez5594@gmail.com"
+              ><i class="fa-solid fa-envelope"></i>m.hafez5594@gmail.com</a
+            >
+            <a href=""><i class="fas fa-map"></i>Alexandria - El Hadra</a>
+          </div>
+          <div class="box">
+            <h3>Follow Us</h3>
+            <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+            <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+            <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
+            <a href="#"><i class="fab fa-github"></i>Github</a>
+          </div>
+        </div>
+      </div>
+      <div class="credit">Created by <span>Mohamed Hafez</span></div>
+    </div>
+
+    <!-- End Footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/master.js"></script>
+  </body>
+</html>
